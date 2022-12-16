@@ -67,11 +67,13 @@ class HansMap:
 
     def __str__(self) -> str:
         string = "Start HansMap {\n"
-
         for i in self:
             string += f"{i[0]} : {i[1]}\n"
         string += "} End HansMap"
         return string
+
+    def __repr__(self) -> str:
+        pass
 
     def __iter__(self) -> tuple:
         for b in self.array:
