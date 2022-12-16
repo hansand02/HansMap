@@ -1,17 +1,14 @@
 from hashmap import HansMap
 
 def main():
-    dictionary = HansMap()
-    dictionary[1] = 3
-    dictionary[2] = 4
-    dictionary[3] = 3
-    dictionary[1] = 2
-    dictionary[3] = "hei"
-    dictionary[2] = "hva"
-    dictionary[23] = "jada"
-    dictionary[658312] = "hmm"
-    print(dictionary[1])
-    print(dictionary)
+    d = HansMap()
+    d['a'] = 0
+    d['b'] = 1
+    d['c'] = 2
+    d['d'] = 3
+  
+    print(len(d))
+    print(d)
 
 if __name__ == "__main__":
     main()

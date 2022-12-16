@@ -1,7 +1,5 @@
+def get3():
+    yield 3
 
-
-l = [0,1,2]
-
-l[52] = 3
-
-print(enumerate(l))
+k = get3()
+print(k)
